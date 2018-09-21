@@ -1,0 +1,14 @@
+<html Lang="en">
+  <head>
+  </head>
+  <body>
+    <h1>Lista de Usuários</h1>
+    <ul>
+        <% userlist.forEach(function(user){ %> 
+        <li><a href="mailto: <%= user.email %>"><%= user.username %> </a></li>
+        <%})%> 
+        
+    </ul>
+
+  </body>
+</html>
